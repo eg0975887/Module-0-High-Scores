@@ -14,7 +14,8 @@
 public class Main {
   public static void main(String[] args) { 
     Player objPlayer = new Player();
-    System.out.println(objPlayer.getInitials())
+    System.out.println("Initials: " + objPlayer.getInitials() + "\n");
+    System.out.println("Score: " + objPlayer.getScore() + "\n");
 
   }
 }
